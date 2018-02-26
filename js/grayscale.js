@@ -40,7 +40,7 @@
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
-
+/*
 // Google Maps Scripts
 var map = null;
 // When the window has finished loading create our google map below
@@ -191,21 +191,23 @@ function init() {
     map: map,
     icon: image
   });
-  
-  // Magnific popup calls
-  $('.popup-gallery').magnificPopup({
-    delegate: 'a',
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    mainClass: 'mfp-img-mobile',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1]
-    },
-    image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-    }
-  });
-  
 }
+*/
+
+// Magnific popup calls
+$('.popup-gallery').magnificPopup({
+delegate: 'a',
+type: 'image',
+tLoading: 'Loading image #%curr%...',
+mainClass: 'mfp-img-mobile',
+gallery: {
+  enabled: true,
+  navigateByImgClick: true,
+  preload: [0, 1]
+},
+image: {
+  tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+}
+});
+  
+
