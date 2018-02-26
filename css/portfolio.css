@@ -11,8 +11,8 @@
     height: 100%;
     text-align: center;
     opacity: 0;
-    color: #fff;
-    background: rgba(0, 188, 138, 0.85);
+    color: black;
+    background: rgba(240, 228, 248, 0.85);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
